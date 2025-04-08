@@ -1,0 +1,65 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-Bold.ttf",
+      "sha1": "6aa9ab96411f6a765ecdd3d680e60add695ed90c"
+    },
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-ExtraBold.ttf",
+      "sha1": "8c405bb5ad4d4ce33002b4ae33739cce0d5afda7"
+    },
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-ExtraLight.ttf",
+      "sha1": "6d065fd70b8b055703820256a13002197e0eb261"
+    },
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-Light.ttf",
+      "sha1": "30333c7dd7f3593db633565b71563527f51be228"
+    },
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-Medium.ttf",
+      "sha1": "bacf3f32bbc569dbdc08cca69e5111b5d74cfffb"
+    },
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-Regular.ttf",
+      "sha1": "7dfaca3c4dc1f7cc5e2c49baece27cd994a70346"
+    },
+    {
+      "path": "src/assets/fonts/BigShouldersDisplay-SemiBold.ttf",
+      "sha1": "c4ebe27cab994463729b4e9d67c5781df87f9682"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Bold.ttf",
+      "sha1": "1925c041ab8aff37aef7e31d1e1174a613c0ce27"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-ExtraBold.ttf",
+      "sha1": "e08870aedaf8eef58e6fe06fcc8dac3740f6333a"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-ExtraLight.ttf",
+      "sha1": "a0adea6fa3e591f82b2a98bd21a5b0c5f9c26d45"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Light.ttf",
+      "sha1": "a4170d686dac566db674512b9a6bd3929172bcb1"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Medium.ttf",
+      "sha1": "0de45b029f9eb832225f3f48ed21972db1635e9b"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Regular.ttf",
+      "sha1": "7c3fedd86d61b1c575eded690b922c77f9c09a4a"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-SemiBold.ttf",
+      "sha1": "a2570e5a840d23d52e50f9b04810c3cb2ca65263"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-VariableFont_wght.ttf",
+      "sha1": "4cddfd5942239ae4363df3c81f06f42924c2a1d0"
+    }
+  ]
+}

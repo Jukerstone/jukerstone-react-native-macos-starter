@@ -1,0 +1,100 @@
+diff --git a/node_modules/react-native-macos/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.mm b/node_modules/react-native-macos/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.mm
+index 54befd8..47c9857 100644
+--- a/node_modules/react-native-macos/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.mm
++++ b/node_modules/react-native-macos/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.mm
+@@ -232,7 +232,9 @@ - (BOOL)control:(NSControl *)control textView:(NSTextView *)fieldEditor doComman
+       [[_backedTextInputView window] makeFirstResponder:nil];
+     }
+     commandHandled = YES;
+-}
++  } else if (commandSelector == @selector(moveDown:) || commandSelector == @selector(moveUp:) || commandSelector == @selector(moveLeft:) || commandSelector == @selector(moveRight:)) {
++    commandHandled = YES;
++  }
+ 
+   return commandHandled;
+ }
+diff --git a/node_modules/react-native-macos/React/Base/RCTBridgeModule.h b/node_modules/react-native-macos/React/Base/RCTBridgeModule.h
+index 24f558e..be3995f 100644
+--- a/node_modules/react-native-macos/React/Base/RCTBridgeModule.h
++++ b/node_modules/react-native-macos/React/Base/RCTBridgeModule.h
+@@ -161,7 +161,7 @@ RCT_EXTERN_C_END
+  * Instead of overriding this, directly dispatch the code onto main queue when necessary.
+  * Example: dispatch_async(dispatch_get_main_queue, ^{ ... });
+  */
+-@property (nonatomic, strong, readonly) dispatch_queue_t methodQueue RCT_DEPRECATED;
++@property (nonatomic, assign, readonly) dispatch_queue_t methodQueue RCT_DEPRECATED;
+ 
+ /**
+  * Wrap the parameter line of your method implementation with this macro to
+diff --git a/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm b/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm
+index c27060a..0af0b5d 100644
+--- a/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm
++++ b/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm
+@@ -945,6 +945,8 @@ - (void)scrollToOffset:(CGPoint)offset animated:(BOOL)animated
+ 
+ #if !TARGET_OS_OSX // [macOS]
+   [_scrollView setContentOffset:offset animated:animated];
++#else 
++  [_scrollView setContentOffset:offset];   
+ #endif // [macOS]
+ 
+   if (!animated) {
+diff --git a/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/TextInput/RCTTextInputComponentView.mm b/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/TextInput/RCTTextInputComponentView.mm
+index f60458d..a922293 100644
+--- a/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/TextInput/RCTTextInputComponentView.mm
++++ b/node_modules/react-native-macos/React/Fabric/Mounting/ComponentViews/TextInput/RCTTextInputComponentView.mm
+@@ -86,10 +86,12 @@ - (instancetype)initWithFrame:(CGRect)frame
+ 
+     _backedTextInputView = defaultProps->traits.multiline ? [RCTUITextView new] : [RCTUITextField new];
+     _backedTextInputView.textInputDelegate = self;
++    _backedTextInputView.focusRingType = NSFocusRingTypeNone;
+     _ignoreNextTextInputCall = NO;
+     _comingFromJS = NO;
+     _didMoveToWindow = NO;
+-    _originalTypingAttributes = [_backedTextInputView.typingAttributes copy];
++    //_originalTypingAttributes = [_backedTextInputView.typingAttributes copy];
++    _originalTypingAttributes = @{};
+ 
+     [self addSubview:_backedTextInputView];
+ #if TARGET_OS_IOS // [macOS] [visionOS]
+@@ -796,6 +798,9 @@ - (void)_setAttributedString:(NSAttributedString *)attributedString
+   [self _restoreTextSelection];
+   [self _updateTypingAttributes];
+   _lastStringStateWasUpdatedWith = attributedString;
++#else // [macOS]
++  _backedTextInputView.attributedText = attributedString;
++  [self textInputDidChange];   
+ #endif // [macOS]
+ }
+ 
+@@ -805,18 +810,18 @@ - (void)_setAttributedString:(NSAttributedString *)attributedString
+ // https://github.com/facebook/react-native/blob/3102a58df38d96f3dacef0530e4dbb399037fcd2/packages/react-native/ReactAndroid/src/main/java/com/facebook/react/views/text/internal/span/SetSpanOperation.kt#L30
+ - (void)_updateTypingAttributes
+ {
+-  if (_backedTextInputView.attributedText.length > 0) {
+-#if !TARGET_OS_OSX // [macOS]
+-    NSUInteger offsetStart = [_backedTextInputView offsetFromPosition:_backedTextInputView.beginningOfDocument
+-                                                           toPosition:_backedTextInputView.selectedTextRange.start];
+-#else // [macOS
+-    NSUInteger offsetStart = [_backedTextInputView selectedTextRange].location;
+-#endif // macOS]
+-    
+-    NSUInteger samplePoint = offsetStart == 0 ? 0 : offsetStart - 1;
+-    _backedTextInputView.typingAttributes = [_backedTextInputView.attributedText attributesAtIndex:samplePoint
+-                                                                                    effectiveRange:NULL];
+-  }
++//  if (_backedTextInputView.attributedText.length > 0) {
++//#if !TARGET_OS_OSX // [macOS]
++//    NSUInteger offsetStart = [_backedTextInputView offsetFromPosition:_backedTextInputView.beginningOfDocument
++//                                                           toPosition:_backedTextInputView.selectedTextRange.start];
++//#else // [macOS
++//    NSUInteger offsetStart = [_backedTextInputView selectedTextRange].location;
++//#endif // macOS]
++//    
++//    NSUInteger samplePoint = offsetStart == 0 ? 0 : offsetStart - 1;
++//    _backedTextInputView.typingAttributes = [_backedTextInputView.attributedText attributesAtIndex:samplePoint
++//                                                                                    effectiveRange:NULL];
++//  }
+ }
+ 
+ - (void)_setMultiline:(BOOL)multiline
