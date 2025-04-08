@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1714C0152DA52369008305A1 /* JukerstoneKIT.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1714C0142DA52369008305A1 /* JukerstoneKIT.docc */; };
+		1714C01B2DA52369008305A1 /* JukerstoneKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */; };
+		1714C0202DA52369008305A1 /* JukerstoneKITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1714C01F2DA52369008305A1 /* JukerstoneKITTests.swift */; };
+		1714C0212DA52369008305A1 /* JukerstoneKIT.h in Headers */ = {isa = PBXBuildFile; fileRef = 1714C0132DA52369008305A1 /* JukerstoneKIT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1714C0292DA52668008305A1 /* JukerstoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1714C0282DA52668008305A1 /* JukerstoneManager.swift */; };
+		1714C08B2DA540DB008305A1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5142014C2437B4B30078DB4F /* AppDelegate.mm */; };
+		1714C08C2DA541A1008305A1 /* JukerstoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1714C0282DA52668008305A1 /* JukerstoneManager.swift */; };
+		1714C08E2DA544F4008305A1 /* JukerstoneKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */; };
+		1714C08F2DA544F4008305A1 /* JukerstoneKIT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17436DC52D511D14005A9D84 /* RNCWebViewImpl+SSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 17436DC32D511D13005A9D84 /* RNCWebViewImpl+SSL.m */; };
 		17436DC82D511D33005A9D84 /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 17436DC62D511D33005A9D84 /* client.p12 */; };
 		17436DC92D511D33005A9D84 /* client.der in Resources */ = {isa = PBXBuildFile; fileRef = 17436DC72D511D33005A9D84 /* client.der */; };
@@ -17,11 +26,96 @@
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
 		598B163393F1070D425073D0 /* libPods-Radioman-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F0B7C7FAE62DAE055C08A9 /* libPods-Radioman-macOS.a */; };
 		787CC40CF51B545380DEA3CA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */; };
+		A7407E1D2BF711CA956C4911 /* libPods-Radioman-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0872DA53327008305A1 /* libPods-Radioman-macOS.a */; };
 		B4C0D6F485404407D9545F51 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1714C01C2DA52369008305A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1714C0102DA52368008305A1;
+			remoteInfo = JukerstoneKIT;
+		};
+		1714C0902DA544F4008305A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1714C0102DA52368008305A1;
+			remoteInfo = JukerstoneKIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1714C0922DA544F4008305A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1714C08F2DA544F4008305A1 /* JukerstoneKIT.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* JukePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0112DA52368008305A1 /* JukerstoneKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JukerstoneKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0132DA52369008305A1 /* JukerstoneKIT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JukerstoneKIT.h; sourceTree = "<group>"; };
+		1714C0142DA52369008305A1 /* JukerstoneKIT.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JukerstoneKIT.docc; sourceTree = "<group>"; };
+		1714C01A2DA52369008305A1 /* JukerstoneKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukerstoneKITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C01F2DA52369008305A1 /* JukerstoneKITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerstoneKITTests.swift; sourceTree = "<group>"; };
+		1714C0282DA52668008305A1 /* JukerstoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerstoneManager.swift; sourceTree = "<group>"; };
+		1714C02C2DA532D1008305A1 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C02E2DA532F2008305A1 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C02F2DA532F2008305A1 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0302DA532F2008305A1 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0312DA532F2008305A1 /* libReact-debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-debug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0322DA532F2008305A1 /* libReact-defaultsnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-defaultsnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0332DA532F2008305A1 /* libReact-domnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-domnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0342DA532F2008305A1 /* libReact-Fabric.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Fabric.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0352DA532F2008305A1 /* libReact-FabricComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-FabricComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0362DA532F2008305A1 /* libReact-FabricImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-FabricImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0372DA532F2008305A1 /* libReact-featureflags.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-featureflags.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0382DA532F2008305A1 /* libReact-featureflagsnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-featureflagsnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0392DA532F2008305A1 /* libReact-graphics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-graphics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C03A2DA532F2008305A1 /* libReact-idlecallbacksnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-idlecallbacksnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C03B2DA532F2008305A1 /* libReact-ImageManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-ImageManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C03C2DA532F2008305A1 /* libReact-jsc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C03D2DA532F2008305A1 /* libReact-jserrorhandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jserrorhandler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C03E2DA532F2008305A1 /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C03F2DA532F2008305A1 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0402DA532F2008305A1 /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0412DA532F2008305A1 /* libReact-logger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-logger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0422DA532F2008305A1 /* libReact-Mapbuffer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Mapbuffer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0432DA532F2008305A1 /* libReact-microtasksnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-microtasksnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0442DA532F2008305A1 /* libreact-native-webview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0452DA532F2008305A1 /* libReact-nativeconfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-nativeconfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0462DA532F2008305A1 /* libReact-NativeModulesApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-NativeModulesApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0472DA532F2008305A1 /* libReact-perflogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-perflogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0482DA532F2008305A1 /* libReact-performancetimeline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-performancetimeline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0492DA532F2008305A1 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C04A2DA532F2008305A1 /* libReact-RCTAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAppDelegate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C04B2DA532F2008305A1 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C04C2DA532F2008305A1 /* libReact-RCTFabric.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTFabric.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C04D2DA532F2008305A1 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C04E2DA532F2008305A1 /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C04F2DA532F2008305A1 /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0502DA532F2008305A1 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0512DA532F2008305A1 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0522DA532F2008305A1 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0532DA532F2008305A1 /* libReact-rendererconsistency.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-rendererconsistency.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0542DA532F2008305A1 /* libReact-rendererdebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-rendererdebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0552DA532F2008305A1 /* libReact-RuntimeApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RuntimeApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0562DA532F2008305A1 /* libReact-RuntimeCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RuntimeCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0572DA532F2008305A1 /* libReact-runtimescheduler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-runtimescheduler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0582DA532F2008305A1 /* libReact-utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0592DA532F2008305A1 /* libReactCodegen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCodegen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C05A2DA532F2008305A1 /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714C0872DA53327008305A1 /* libPods-Radioman-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Radioman-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17436DC32D511D13005A9D84 /* RNCWebViewImpl+SSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNCWebViewImpl+SSL.m"; sourceTree = "<group>"; };
 		17436DC42D511D14005A9D84 /* RNCWebViewImpl+SSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCWebViewImpl+SSL.h"; sourceTree = "<group>"; };
 		17436DC62D511D33005A9D84 /* client.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.p12; sourceTree = "<group>"; };
@@ -39,8 +133,11 @@
 		514201592437B4B40078DB4F /* Radioman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radioman.entitlements; sourceTree = "<group>"; };
 		64F0B7C7FAE62DAE055C08A9 /* libPods-Radioman-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Radioman-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E6AB528CCA80C3D6E36B88 /* Pods-Radioman-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radioman-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Radioman-macOS/Pods-Radioman-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		878453FE451E12BFBE959EC2 /* Pods-JukerstoneKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JukerstoneKIT.release.xcconfig"; path = "Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT.release.xcconfig"; sourceTree = "<group>"; };
 		9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6344BF34D3B6DB74BF3177B /* Pods-JukerstoneKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JukerstoneKIT.debug.xcconfig"; path = "Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT.debug.xcconfig"; sourceTree = "<group>"; };
+		F8609871BCC352F96DCFD155 /* libPods-JukerstoneKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JukerstoneKIT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +145,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1714C08E2DA544F4008305A1 /* JukerstoneKIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1714C00E2DA52368008305A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1714C0172DA52369008305A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1714C01B2DA52369008305A1 /* JukerstoneKIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,17 +169,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				598B163393F1070D425073D0 /* libPods-Radioman-macOS.a in Frameworks */,
+				A7407E1D2BF711CA956C4911 /* libPods-Radioman-macOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1714C0122DA52369008305A1 /* JukerstoneKIT */ = {
+			isa = PBXGroup;
+			children = (
+				1714C0132DA52369008305A1 /* JukerstoneKIT.h */,
+				1714C0142DA52369008305A1 /* JukerstoneKIT.docc */,
+				1714C0282DA52668008305A1 /* JukerstoneManager.swift */,
+			);
+			path = JukerstoneKIT;
+			sourceTree = "<group>";
+		};
+		1714C01E2DA52369008305A1 /* JukerstoneKITTests */ = {
+			isa = PBXGroup;
+			children = (
+				1714C01F2DA52369008305A1 /* JukerstoneKITTests.swift */,
+			);
+			path = JukerstoneKITTests;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1714C0872DA53327008305A1 /* libPods-Radioman-macOS.a */,
+				1714C02E2DA532F2008305A1 /* libReact-Core.a */,
+				1714C02F2DA532F2008305A1 /* libReact-CoreModules.a */,
+				1714C0302DA532F2008305A1 /* libReact-cxxreact.a */,
+				1714C0312DA532F2008305A1 /* libReact-debug.a */,
+				1714C0322DA532F2008305A1 /* libReact-defaultsnativemodule.a */,
+				1714C0332DA532F2008305A1 /* libReact-domnativemodule.a */,
+				1714C0342DA532F2008305A1 /* libReact-Fabric.a */,
+				1714C0352DA532F2008305A1 /* libReact-FabricComponents.a */,
+				1714C0362DA532F2008305A1 /* libReact-FabricImage.a */,
+				1714C0372DA532F2008305A1 /* libReact-featureflags.a */,
+				1714C0382DA532F2008305A1 /* libReact-featureflagsnativemodule.a */,
+				1714C0392DA532F2008305A1 /* libReact-graphics.a */,
+				1714C03A2DA532F2008305A1 /* libReact-idlecallbacksnativemodule.a */,
+				1714C03B2DA532F2008305A1 /* libReact-ImageManager.a */,
+				1714C03C2DA532F2008305A1 /* libReact-jsc.a */,
+				1714C03D2DA532F2008305A1 /* libReact-jserrorhandler.a */,
+				1714C03E2DA532F2008305A1 /* libReact-jsi.a */,
+				1714C03F2DA532F2008305A1 /* libReact-jsiexecutor.a */,
+				1714C0402DA532F2008305A1 /* libReact-jsinspector.a */,
+				1714C0412DA532F2008305A1 /* libReact-logger.a */,
+				1714C0422DA532F2008305A1 /* libReact-Mapbuffer.a */,
+				1714C0432DA532F2008305A1 /* libReact-microtasksnativemodule.a */,
+				1714C0442DA532F2008305A1 /* libreact-native-webview.a */,
+				1714C0452DA532F2008305A1 /* libReact-nativeconfig.a */,
+				1714C0462DA532F2008305A1 /* libReact-NativeModulesApple.a */,
+				1714C0472DA532F2008305A1 /* libReact-perflogger.a */,
+				1714C0482DA532F2008305A1 /* libReact-performancetimeline.a */,
+				1714C0492DA532F2008305A1 /* libReact-RCTAnimation.a */,
+				1714C04A2DA532F2008305A1 /* libReact-RCTAppDelegate.a */,
+				1714C04B2DA532F2008305A1 /* libReact-RCTBlob.a */,
+				1714C04C2DA532F2008305A1 /* libReact-RCTFabric.a */,
+				1714C04D2DA532F2008305A1 /* libReact-RCTImage.a */,
+				1714C04E2DA532F2008305A1 /* libReact-RCTLinking.a */,
+				1714C04F2DA532F2008305A1 /* libReact-RCTNetwork.a */,
+				1714C0502DA532F2008305A1 /* libReact-RCTSettings.a */,
+				1714C0512DA532F2008305A1 /* libReact-RCTText.a */,
+				1714C0522DA532F2008305A1 /* libReact-RCTVibration.a */,
+				1714C0532DA532F2008305A1 /* libReact-rendererconsistency.a */,
+				1714C0542DA532F2008305A1 /* libReact-rendererdebug.a */,
+				1714C0552DA532F2008305A1 /* libReact-RuntimeApple.a */,
+				1714C0562DA532F2008305A1 /* libReact-RuntimeCore.a */,
+				1714C0572DA532F2008305A1 /* libReact-runtimescheduler.a */,
+				1714C0582DA532F2008305A1 /* libReact-utils.a */,
+				1714C0592DA532F2008305A1 /* libReactCodegen.a */,
+				1714C05A2DA532F2008305A1 /* libReactCommon.a */,
+				1714C02C2DA532D1008305A1 /* libReact-Core.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				64F0B7C7FAE62DAE055C08A9 /* libPods-Radioman-macOS.a */,
+				F8609871BCC352F96DCFD155 /* libPods-JukerstoneKIT.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +276,8 @@
 			children = (
 				82E6AB528CCA80C3D6E36B88 /* Pods-Radioman-macOS.debug.xcconfig */,
 				2C27FB0B20F7A569D4B706E3 /* Pods-Radioman-macOS.release.xcconfig */,
+				F6344BF34D3B6DB74BF3177B /* Pods-JukerstoneKIT.debug.xcconfig */,
+				878453FE451E12BFBE959EC2 /* Pods-JukerstoneKIT.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -112,6 +294,8 @@
 			children = (
 				5142014A2437B4B30078DB4F /* Radioman-macOS */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				1714C0122DA52369008305A1 /* JukerstoneKIT */,
+				1714C01E2DA52369008305A1 /* JukerstoneKITTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */,
@@ -127,11 +311,24 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* JukePod.app */,
 				514201492437B4B30078DB4F /* JukePod™ Micro.app */,
+				1714C0112DA52368008305A1 /* JukerstoneKIT.framework */,
+				1714C01A2DA52369008305A1 /* JukerstoneKITTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1714C00C2DA52368008305A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1714C0212DA52369008305A1 /* JukerstoneKIT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		13B07F861A680F5B00A75B9A /* Radioman-iOS */ = {
@@ -142,15 +339,55 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				1714C0922DA544F4008305A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1714C0912DA544F4008305A1 /* PBXTargetDependency */,
 			);
 			name = "Radioman-iOS";
 			productName = Radioman;
 			productReference = 13B07F961A680F5B00A75B9A /* JukePod.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1714C0102DA52368008305A1 /* JukerstoneKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1714C0222DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKIT" */;
+			buildPhases = (
+				9011F91422EFE29F8A1AAC86 /* [CP] Check Pods Manifest.lock */,
+				1714C00C2DA52368008305A1 /* Headers */,
+				1714C00D2DA52368008305A1 /* Sources */,
+				1714C00E2DA52368008305A1 /* Frameworks */,
+				1714C00F2DA52368008305A1 /* Resources */,
+				CB38018DD14B3245F1E23440 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JukerstoneKIT;
+			productName = JukerstoneKIT;
+			productReference = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1714C0192DA52369008305A1 /* JukerstoneKITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1714C0252DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKITTests" */;
+			buildPhases = (
+				1714C0162DA52369008305A1 /* Sources */,
+				1714C0172DA52369008305A1 /* Frameworks */,
+				1714C0182DA52369008305A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1714C01D2DA52369008305A1 /* PBXTargetDependency */,
+			);
+			name = JukerstoneKITTests;
+			productName = JukerstoneKITTests;
+			productReference = 1714C01A2DA52369008305A1 /* JukerstoneKITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		514201482437B4B30078DB4F /* Radioman-macOS */ = {
 			isa = PBXNativeTarget;
@@ -178,11 +415,22 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 3J39XKJXT5;
 						LastSwiftMigration = 1120;
+					};
+					1714C0102DA52368008305A1 = {
+						CreatedOnToolsVersion = 15.4;
+						DevelopmentTeam = 3J39XKJXT5;
+						ProvisioningStyle = Automatic;
+					};
+					1714C0192DA52369008305A1 = {
+						CreatedOnToolsVersion = 15.4;
+						DevelopmentTeam = 3J39XKJXT5;
+						ProvisioningStyle = Automatic;
 					};
 					514201482437B4B30078DB4F = {
 						CreatedOnToolsVersion = 11.4;
@@ -206,6 +454,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* Radioman-iOS */,
 				514201482437B4B30078DB4F /* Radioman-macOS */,
+				1714C0102DA52368008305A1 /* JukerstoneKIT */,
+				1714C0192DA52369008305A1 /* JukerstoneKITTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +466,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4C0D6F485404407D9545F51 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1714C00F2DA52368008305A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1714C0182DA52369008305A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +578,54 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radioman-macOS/Pods-Radioman-macOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9011F91422EFE29F8A1AAC86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JukerstoneKIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB38018DD14B3245F1E23440 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -324,18 +636,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1714C00D2DA52368008305A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1714C0152DA52369008305A1 /* JukerstoneKIT.docc in Sources */,
+				1714C08B2DA540DB008305A1 /* AppDelegate.mm in Sources */,
+				1714C0292DA52668008305A1 /* JukerstoneManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1714C0162DA52369008305A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1714C0202DA52369008305A1 /* JukerstoneKITTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		514201452437B4B30078DB4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1744DCBA2D6087920049E48A /* RNSliderMacOS.m in Sources */,
 				17436DC52D511D14005A9D84 /* RNCWebViewImpl+SSL.m in Sources */,
+				1714C08C2DA541A1008305A1 /* JukerstoneManager.swift in Sources */,
 				514201582437B4B40078DB4F /* main.m in Sources */,
 				5142014D2437B4B30078DB4F /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1714C01D2DA52369008305A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1714C0102DA52368008305A1 /* JukerstoneKIT */;
+			targetProxy = 1714C01C2DA52369008305A1 /* PBXContainerItemProxy */;
+		};
+		1714C0912DA544F4008305A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1714C0102DA52368008305A1 /* JukerstoneKIT */;
+			targetProxy = 1714C0902DA544F4008305A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		514201532437B4B40078DB4F /* Main.storyboard */ = {
@@ -390,6 +734,172 @@
 				PRODUCT_NAME = JukePod;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		1714C0232DA52369008305A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6344BF34D3B6DB74BF3177B /* Pods-JukerstoneKIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3J39XKJXT5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKIT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1714C0242DA52369008305A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878453FE451E12BFBE959EC2 /* Pods-JukerstoneKIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3J39XKJXT5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKIT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1714C0262DA52369008305A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3J39XKJXT5;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1714C0272DA52369008305A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3J39XKJXT5;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,10 +1015,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -564,10 +1071,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = false;
@@ -583,6 +1087,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1714C0222DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1714C0232DA52369008305A1 /* Debug */,
+				1714C0242DA52369008305A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1714C0252DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1714C0262DA52369008305A1 /* Debug */,
+				1714C0272DA52369008305A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

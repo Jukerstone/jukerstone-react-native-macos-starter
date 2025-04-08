@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "postinstall": "patch-package",
     "start": "react-native start",
+    "bundle": "npx react-native-macos bundle --entry-file src/app/index.tsx --platform macos --dev false --bundle-output dist/main.jsbundle --assets-dest dist",
     "test": "jest"
   },
   "dependencies": {
