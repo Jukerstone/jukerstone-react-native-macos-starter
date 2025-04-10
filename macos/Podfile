@@ -15,7 +15,7 @@ target 'Radioman-macOS' do
   )
 end
 
-target 'JukerstoneKIT' do
+target 'JukerstoneSDK' do
   platform :macos, '11.0'
 
   use_react_native!(

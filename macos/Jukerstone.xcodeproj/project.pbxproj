@@ -7,19 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1714C0152DA52369008305A1 /* JukerstoneKIT.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1714C0142DA52369008305A1 /* JukerstoneKIT.docc */; };
-		1714C01B2DA52369008305A1 /* JukerstoneKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */; };
-		1714C0202DA52369008305A1 /* JukerstoneKITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1714C01F2DA52369008305A1 /* JukerstoneKITTests.swift */; };
-		1714C0212DA52369008305A1 /* JukerstoneKIT.h in Headers */ = {isa = PBXBuildFile; fileRef = 1714C0132DA52369008305A1 /* JukerstoneKIT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1714C0292DA52668008305A1 /* JukerstoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1714C0282DA52668008305A1 /* JukerstoneManager.swift */; };
-		1714C08B2DA540DB008305A1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5142014C2437B4B30078DB4F /* AppDelegate.mm */; };
-		1714C08C2DA541A1008305A1 /* JukerstoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1714C0282DA52668008305A1 /* JukerstoneManager.swift */; };
-		1714C08E2DA544F4008305A1 /* JukerstoneKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */; };
-		1714C08F2DA544F4008305A1 /* JukerstoneKIT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17436DC52D511D14005A9D84 /* RNCWebViewImpl+SSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 17436DC32D511D13005A9D84 /* RNCWebViewImpl+SSL.m */; };
 		17436DC82D511D33005A9D84 /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 17436DC62D511D33005A9D84 /* client.p12 */; };
 		17436DC92D511D33005A9D84 /* client.der in Resources */ = {isa = PBXBuildFile; fileRef = 17436DC72D511D33005A9D84 /* client.der */; };
 		1744DCBA2D6087920049E48A /* RNSliderMacOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1744DCB92D6087920049E48A /* RNSliderMacOS.m */; };
+		175063362DA8063500C43DF6 /* JukerstoneSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 175063352DA8063500C43DF6 /* JukerstoneSDK.docc */; };
+		1750633C2DA8063500C43DF6 /* JukerstoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175063322DA8063500C43DF6 /* JukerstoneSDK.framework */; };
+		175063412DA8063500C43DF6 /* JukerstoneSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175063402DA8063500C43DF6 /* JukerstoneSDKTests.swift */; };
+		175063422DA8063500C43DF6 /* JukerstoneSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 175063342DA8063500C43DF6 /* JukerstoneSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5142014D2437B4B30078DB4F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5142014C2437B4B30078DB4F /* AppDelegate.mm */; };
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
@@ -28,22 +23,16 @@
 		787CC40CF51B545380DEA3CA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */; };
 		A7407E1D2BF711CA956C4911 /* libPods-Radioman-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1714C0872DA53327008305A1 /* libPods-Radioman-macOS.a */; };
 		B4C0D6F485404407D9545F51 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */; };
+		DD6F119DAD5CBF610C2FC5D0 /* libPods-JukerstoneSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD9DCACEB66411987802785 /* libPods-JukerstoneSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1714C01C2DA52369008305A1 /* PBXContainerItemProxy */ = {
+		1750633D2DA8063500C43DF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1714C0102DA52368008305A1;
-			remoteInfo = JukerstoneKIT;
-		};
-		1714C0902DA544F4008305A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1714C0102DA52368008305A1;
-			remoteInfo = JukerstoneKIT;
+			remoteGlobalIDString = 175063312DA8063500C43DF6;
+			remoteInfo = JukerstoneSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1714C08F2DA544F4008305A1 /* JukerstoneKIT.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,12 +51,7 @@
 
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* JukePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1714C0112DA52368008305A1 /* JukerstoneKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JukerstoneKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1714C0132DA52369008305A1 /* JukerstoneKIT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JukerstoneKIT.h; sourceTree = "<group>"; };
-		1714C0142DA52369008305A1 /* JukerstoneKIT.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JukerstoneKIT.docc; sourceTree = "<group>"; };
-		1714C01A2DA52369008305A1 /* JukerstoneKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukerstoneKITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1714C01F2DA52369008305A1 /* JukerstoneKITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerstoneKITTests.swift; sourceTree = "<group>"; };
-		1714C0282DA52668008305A1 /* JukerstoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerstoneManager.swift; sourceTree = "<group>"; };
 		1714C02C2DA532D1008305A1 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1714C02E2DA532F2008305A1 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1714C02F2DA532F2008305A1 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +105,11 @@
 		17436DC72D511D33005A9D84 /* client.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.der; sourceTree = "<group>"; };
 		1744DCB82D6087780049E48A /* RNSliderMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSliderMacOS.h; sourceTree = "<group>"; };
 		1744DCB92D6087920049E48A /* RNSliderMacOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSliderMacOS.m; sourceTree = "<group>"; };
+		175063322DA8063500C43DF6 /* JukerstoneSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JukerstoneSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		175063342DA8063500C43DF6 /* JukerstoneSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JukerstoneSDK.h; sourceTree = "<group>"; };
+		175063352DA8063500C43DF6 /* JukerstoneSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JukerstoneSDK.docc; sourceTree = "<group>"; };
+		1750633B2DA8063500C43DF6 /* JukerstoneSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukerstoneSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		175063402DA8063500C43DF6 /* JukerstoneSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerstoneSDKTests.swift; sourceTree = "<group>"; };
 		2C27FB0B20F7A569D4B706E3 /* Pods-Radioman-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radioman-macOS.release.xcconfig"; path = "Target Support Files/Pods-Radioman-macOS/Pods-Radioman-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		514201492437B4B30078DB4F /* JukePod™ Micro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JukePod™ Micro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142014B2437B4B30078DB4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,9 +120,12 @@
 		514201572437B4B40078DB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		514201592437B4B40078DB4F /* Radioman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radioman.entitlements; sourceTree = "<group>"; };
 		64F0B7C7FAE62DAE055C08A9 /* libPods-Radioman-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Radioman-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7DF576CCE0C814D68A232F /* Pods-JukerstoneSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JukerstoneSDK.debug.xcconfig"; path = "Target Support Files/Pods-JukerstoneSDK/Pods-JukerstoneSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		82E6AB528CCA80C3D6E36B88 /* Pods-Radioman-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radioman-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Radioman-macOS/Pods-Radioman-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		878453FE451E12BFBE959EC2 /* Pods-JukerstoneKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JukerstoneKIT.release.xcconfig"; path = "Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT.release.xcconfig"; sourceTree = "<group>"; };
+		8C2E7C995BE700834A5F73DB /* Pods-JukerstoneSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JukerstoneSDK.release.xcconfig"; path = "Target Support Files/Pods-JukerstoneSDK/Pods-JukerstoneSDK.release.xcconfig"; sourceTree = "<group>"; };
 		9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		ABD9DCACEB66411987802785 /* libPods-JukerstoneSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JukerstoneSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F6344BF34D3B6DB74BF3177B /* Pods-JukerstoneKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JukerstoneKIT.debug.xcconfig"; path = "Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT.debug.xcconfig"; sourceTree = "<group>"; };
 		F8609871BCC352F96DCFD155 /* libPods-JukerstoneKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JukerstoneKIT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,22 +136,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1714C08E2DA544F4008305A1 /* JukerstoneKIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1714C00E2DA52368008305A1 /* Frameworks */ = {
+		1750632F2DA8063500C43DF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6F119DAD5CBF610C2FC5D0 /* libPods-JukerstoneSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1714C0172DA52369008305A1 /* Frameworks */ = {
+		175063382DA8063500C43DF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1714C01B2DA52369008305A1 /* JukerstoneKIT.framework in Frameworks */,
+				1750633C2DA8063500C43DF6 /* JukerstoneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,16 +167,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1714C0122DA52369008305A1 /* JukerstoneKIT */ = {
-			isa = PBXGroup;
-			children = (
-				1714C0132DA52369008305A1 /* JukerstoneKIT.h */,
-				1714C0142DA52369008305A1 /* JukerstoneKIT.docc */,
-				1714C0282DA52668008305A1 /* JukerstoneManager.swift */,
-			);
-			path = JukerstoneKIT;
-			sourceTree = "<group>";
-		};
 		1714C01E2DA52369008305A1 /* JukerstoneKITTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,10 +175,34 @@
 			path = JukerstoneKITTests;
 			sourceTree = "<group>";
 		};
-		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+		175063332DA8063500C43DF6 /* JukerstoneSDK */ = {
+			isa = PBXGroup;
+			children = (
+				175063342DA8063500C43DF6 /* JukerstoneSDK.h */,
+				175063352DA8063500C43DF6 /* JukerstoneSDK.docc */,
+			);
+			path = JukerstoneSDK;
+			sourceTree = "<group>";
+		};
+		1750633F2DA8063500C43DF6 /* JukerstoneSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				175063402DA8063500C43DF6 /* JukerstoneSDKTests.swift */,
+			);
+			path = JukerstoneSDKTests;
+			sourceTree = "<group>";
+		};
+		175063552DA815A900C43DF6 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				1714C0872DA53327008305A1 /* libPods-Radioman-macOS.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 				1714C02E2DA532F2008305A1 /* libReact-Core.a */,
 				1714C02F2DA532F2008305A1 /* libReact-CoreModules.a */,
 				1714C0302DA532F2008305A1 /* libReact-cxxreact.a */,
@@ -247,6 +252,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				64F0B7C7FAE62DAE055C08A9 /* libPods-Radioman-macOS.a */,
 				F8609871BCC352F96DCFD155 /* libPods-JukerstoneKIT.a */,
+				ABD9DCACEB66411987802785 /* libPods-JukerstoneSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 				2C27FB0B20F7A569D4B706E3 /* Pods-Radioman-macOS.release.xcconfig */,
 				F6344BF34D3B6DB74BF3177B /* Pods-JukerstoneKIT.debug.xcconfig */,
 				878453FE451E12BFBE959EC2 /* Pods-JukerstoneKIT.release.xcconfig */,
+				6B7DF576CCE0C814D68A232F /* Pods-JukerstoneSDK.debug.xcconfig */,
+				8C2E7C995BE700834A5F73DB /* Pods-JukerstoneSDK.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -294,12 +302,14 @@
 			children = (
 				5142014A2437B4B30078DB4F /* Radioman-macOS */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				1714C0122DA52369008305A1 /* JukerstoneKIT */,
 				1714C01E2DA52369008305A1 /* JukerstoneKITTests */,
+				175063332DA8063500C43DF6 /* JukerstoneSDK */,
+				1750633F2DA8063500C43DF6 /* JukerstoneSDKTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9093E6D8A9A1CF91507934DE /* PrivacyInfo.xcprivacy */,
 				8184FAF373AEF6FEEF042ECD /* Pods */,
+				175063552DA815A900C43DF6 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -311,8 +321,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* JukePod.app */,
 				514201492437B4B30078DB4F /* JukePod™ Micro.app */,
-				1714C0112DA52368008305A1 /* JukerstoneKIT.framework */,
-				1714C01A2DA52369008305A1 /* JukerstoneKITTests.xctest */,
+				175063322DA8063500C43DF6 /* JukerstoneSDK.framework */,
+				1750633B2DA8063500C43DF6 /* JukerstoneSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,11 +330,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1714C00C2DA52368008305A1 /* Headers */ = {
+		1750632D2DA8063500C43DF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1714C0212DA52369008305A1 /* JukerstoneKIT.h in Headers */,
+				175063422DA8063500C43DF6 /* JukerstoneSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,49 +354,49 @@
 			buildRules = (
 			);
 			dependencies = (
-				1714C0912DA544F4008305A1 /* PBXTargetDependency */,
 			);
 			name = "Radioman-iOS";
 			productName = Radioman;
 			productReference = 13B07F961A680F5B00A75B9A /* JukePod.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1714C0102DA52368008305A1 /* JukerstoneKIT */ = {
+		175063312DA8063500C43DF6 /* JukerstoneSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1714C0222DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKIT" */;
+			buildConfigurationList = 175063432DA8063500C43DF6 /* Build configuration list for PBXNativeTarget "JukerstoneSDK" */;
 			buildPhases = (
-				9011F91422EFE29F8A1AAC86 /* [CP] Check Pods Manifest.lock */,
-				1714C00C2DA52368008305A1 /* Headers */,
-				1714C00D2DA52368008305A1 /* Sources */,
-				1714C00E2DA52368008305A1 /* Frameworks */,
-				1714C00F2DA52368008305A1 /* Resources */,
-				CB38018DD14B3245F1E23440 /* [CP] Copy Pods Resources */,
+				6754F79F2D11C706A5105BFD /* [CP] Check Pods Manifest.lock */,
+				1750632D2DA8063500C43DF6 /* Headers */,
+				1750632E2DA8063500C43DF6 /* Sources */,
+				1750632F2DA8063500C43DF6 /* Frameworks */,
+				175063302DA8063500C43DF6 /* Resources */,
+				175063492DA8064F00C43DF6 /* JukerstoneSDK */,
+				EE8F856418B39665F1057A3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JukerstoneKIT;
-			productName = JukerstoneKIT;
-			productReference = 1714C0112DA52368008305A1 /* JukerstoneKIT.framework */;
+			name = JukerstoneSDK;
+			productName = JukerstoneSDK;
+			productReference = 175063322DA8063500C43DF6 /* JukerstoneSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1714C0192DA52369008305A1 /* JukerstoneKITTests */ = {
+		1750633A2DA8063500C43DF6 /* JukerstoneSDKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1714C0252DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKITTests" */;
+			buildConfigurationList = 175063462DA8063500C43DF6 /* Build configuration list for PBXNativeTarget "JukerstoneSDKTests" */;
 			buildPhases = (
-				1714C0162DA52369008305A1 /* Sources */,
-				1714C0172DA52369008305A1 /* Frameworks */,
-				1714C0182DA52369008305A1 /* Resources */,
+				175063372DA8063500C43DF6 /* Sources */,
+				175063382DA8063500C43DF6 /* Frameworks */,
+				175063392DA8063500C43DF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1714C01D2DA52369008305A1 /* PBXTargetDependency */,
+				1750633E2DA8063500C43DF6 /* PBXTargetDependency */,
 			);
-			name = JukerstoneKITTests;
-			productName = JukerstoneKITTests;
-			productReference = 1714C01A2DA52369008305A1 /* JukerstoneKITTests.xctest */;
+			name = JukerstoneSDKTests;
+			productName = JukerstoneSDKTests;
+			productReference = 1750633B2DA8063500C43DF6 /* JukerstoneSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		514201482437B4B30078DB4F /* Radioman-macOS */ = {
@@ -422,12 +432,12 @@
 						DevelopmentTeam = 3J39XKJXT5;
 						LastSwiftMigration = 1120;
 					};
-					1714C0102DA52368008305A1 = {
+					175063312DA8063500C43DF6 = {
 						CreatedOnToolsVersion = 15.4;
 						DevelopmentTeam = 3J39XKJXT5;
 						ProvisioningStyle = Automatic;
 					};
-					1714C0192DA52369008305A1 = {
+					1750633A2DA8063500C43DF6 = {
 						CreatedOnToolsVersion = 15.4;
 						DevelopmentTeam = 3J39XKJXT5;
 						ProvisioningStyle = Automatic;
@@ -454,8 +464,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* Radioman-iOS */,
 				514201482437B4B30078DB4F /* Radioman-macOS */,
-				1714C0102DA52368008305A1 /* JukerstoneKIT */,
-				1714C0192DA52369008305A1 /* JukerstoneKITTests */,
+				175063312DA8063500C43DF6 /* JukerstoneSDK */,
+				1750633A2DA8063500C43DF6 /* JukerstoneSDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -469,14 +479,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1714C00F2DA52368008305A1 /* Resources */ = {
+		175063302DA8063500C43DF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1714C0182DA52369008305A1 /* Resources */ = {
+		175063392DA8063500C43DF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,6 +521,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native-macos/scripts/react-native-xcode.sh\n";
+		};
+		175063492DA8064F00C43DF6 /* JukerstoneSDK */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = JukerstoneSDK;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# === Config ===\nREACT_NATIVE_ENTRY_FILE=\"index.js\"\nARTIFACTS_DIR=\"${PROJECT_TEMP_DIR}/BuildArtifacts\"\nBUNDLE_OUTPUT=\"$ARTIFACTS_DIR/main.jsbundle\"\nASSETS_DEST=\"$ARTIFACTS_DIR/assets\"\nFRAMEWORK_RESOURCES_DIR=\"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.framework/Resources\"\n\n# === Create safe, sandboxed temp directories\nmkdir -p \"$ASSETS_DEST\"\nmkdir -p \"$FRAMEWORK_RESOURCES_DIR\"\n\n# === Generate the JS bundle ===\ncd \"$SRCROOT/..\"\n\nnpx react-native bundle \\\n  --platform macos \\\n  --dev false \\\n  --entry-file \"$REACT_NATIVE_ENTRY_FILE\" \\\n  --bundle-output \"$BUNDLE_OUTPUT\" \\\n  --assets-dest \"$ASSETS_DEST\"\n\n# === Copy into framework ===\ncp \"$BUNDLE_OUTPUT\" \"$FRAMEWORK_RESOURCES_DIR/main.jsbundle\"\n\n# === Copy assets if present ===\nif [ -d \"$ASSETS_DEST\" ]; then\n  cp -R \"$ASSETS_DEST/\" \"$FRAMEWORK_RESOURCES_DIR/\"\nfi\n\n# ✅ Log final destination\necho \"📦 Copied JS bundle to: $FRAMEWORK_RESOURCES_DIR/main.jsbundle\"\n\n";
 		};
 		1A938104A937498D81B3BD3B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -578,7 +606,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radioman-macOS/Pods-Radioman-macOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9011F91422EFE29F8A1AAC86 /* [CP] Check Pods Manifest.lock */ = {
+		6754F79F2D11C706A5105BFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,20 +621,20 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JukerstoneKIT-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JukerstoneSDK-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB38018DD14B3245F1E23440 /* [CP] Copy Pods Resources */ = {
+		EE8F856418B39665F1057A3A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-JukerstoneSDK/Pods-JukerstoneSDK-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
@@ -623,7 +651,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JukerstoneKIT/Pods-JukerstoneKIT-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JukerstoneSDK/Pods-JukerstoneSDK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -636,21 +664,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1714C00D2DA52368008305A1 /* Sources */ = {
+		1750632E2DA8063500C43DF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1714C0152DA52369008305A1 /* JukerstoneKIT.docc in Sources */,
-				1714C08B2DA540DB008305A1 /* AppDelegate.mm in Sources */,
-				1714C0292DA52668008305A1 /* JukerstoneManager.swift in Sources */,
+				175063362DA8063500C43DF6 /* JukerstoneSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1714C0162DA52369008305A1 /* Sources */ = {
+		175063372DA8063500C43DF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1714C0202DA52369008305A1 /* JukerstoneKITTests.swift in Sources */,
+				175063412DA8063500C43DF6 /* JukerstoneSDKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +686,6 @@
 			files = (
 				1744DCBA2D6087920049E48A /* RNSliderMacOS.m in Sources */,
 				17436DC52D511D14005A9D84 /* RNCWebViewImpl+SSL.m in Sources */,
-				1714C08C2DA541A1008305A1 /* JukerstoneManager.swift in Sources */,
 				514201582437B4B40078DB4F /* main.m in Sources */,
 				5142014D2437B4B30078DB4F /* AppDelegate.mm in Sources */,
 			);
@@ -669,15 +694,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1714C01D2DA52369008305A1 /* PBXTargetDependency */ = {
+		1750633E2DA8063500C43DF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1714C0102DA52368008305A1 /* JukerstoneKIT */;
-			targetProxy = 1714C01C2DA52369008305A1 /* PBXContainerItemProxy */;
-		};
-		1714C0912DA544F4008305A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1714C0102DA52368008305A1 /* JukerstoneKIT */;
-			targetProxy = 1714C0902DA544F4008305A1 /* PBXContainerItemProxy */;
+			target = 175063312DA8063500C43DF6 /* JukerstoneSDK */;
+			targetProxy = 1750633D2DA8063500C43DF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -737,10 +757,11 @@
 			};
 			name = Release;
 		};
-		1714C0232DA52369008305A1 /* Debug */ = {
+		175063442DA8063500C43DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6344BF34D3B6DB74BF3177B /* Pods-JukerstoneKIT.debug.xcconfig */;
+			baseConfigurationReference = 6B7DF576CCE0C814D68A232F /* Pods-JukerstoneSDK.debug.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -762,23 +783,27 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks @loader_path/Frameworks";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKIT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -787,10 +812,11 @@
 			};
 			name = Debug;
 		};
-		1714C0242DA52369008305A1 /* Release */ = {
+		175063452DA8063500C43DF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878453FE451E12BFBE959EC2 /* Pods-JukerstoneKIT.release.xcconfig */;
+			baseConfigurationReference = 8C2E7C995BE700834A5F73DB /* Pods-JukerstoneSDK.release.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -813,22 +839,26 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks @loader_path/Frameworks";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKIT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -836,10 +866,10 @@
 			};
 			name = Release;
 		};
-		1714C0262DA52369008305A1 /* Debug */ = {
+		175063472DA8063500C43DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -857,11 +887,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKITTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -870,10 +903,10 @@
 			};
 			name = Debug;
 		};
-		1714C0272DA52369008305A1 /* Release */ = {
+		175063482DA8063500C43DF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -892,10 +925,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneKITTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JukerstoneSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1091,20 +1127,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1714C0222DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKIT" */ = {
+		175063432DA8063500C43DF6 /* Build configuration list for PBXNativeTarget "JukerstoneSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1714C0232DA52369008305A1 /* Debug */,
-				1714C0242DA52369008305A1 /* Release */,
+				175063442DA8063500C43DF6 /* Debug */,
+				175063452DA8063500C43DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1714C0252DA52369008305A1 /* Build configuration list for PBXNativeTarget "JukerstoneKITTests" */ = {
+		175063462DA8063500C43DF6 /* Build configuration list for PBXNativeTarget "JukerstoneSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1714C0262DA52369008305A1 /* Debug */,
-				1714C0272DA52369008305A1 /* Release */,
+				175063472DA8063500C43DF6 /* Debug */,
+				175063482DA8063500C43DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

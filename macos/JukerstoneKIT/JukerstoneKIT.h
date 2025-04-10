@@ -6,9 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTBridge.h>
-#import <React/RCTRootView.h>
 
 //! Project version number for JukerstoneKIT.
 FOUNDATION_EXPORT double JukerstoneKITVersionNumber;
