@@ -15,6 +15,7 @@
 		1750633C2DA8063500C43DF6 /* JukerstoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175063322DA8063500C43DF6 /* JukerstoneSDK.framework */; };
 		175063412DA8063500C43DF6 /* JukerstoneSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175063402DA8063500C43DF6 /* JukerstoneSDKTests.swift */; };
 		175063422DA8063500C43DF6 /* JukerstoneSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 175063342DA8063500C43DF6 /* JukerstoneSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1750635E2DA909D900C43DF6 /* JukerstoneSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 1750635D2DA909D900C43DF6 /* JukerstoneSDK.m */; };
 		5142014D2437B4B30078DB4F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5142014C2437B4B30078DB4F /* AppDelegate.mm */; };
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
@@ -110,6 +111,8 @@
 		175063352DA8063500C43DF6 /* JukerstoneSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JukerstoneSDK.docc; sourceTree = "<group>"; };
 		1750633B2DA8063500C43DF6 /* JukerstoneSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukerstoneSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		175063402DA8063500C43DF6 /* JukerstoneSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerstoneSDKTests.swift; sourceTree = "<group>"; };
+		1750635C2DA909D900C43DF6 /* JukerstoneSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JukerstoneSDK.h; sourceTree = "<group>"; };
+		1750635D2DA909D900C43DF6 /* JukerstoneSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JukerstoneSDK.m; sourceTree = "<group>"; };
 		2C27FB0B20F7A569D4B706E3 /* Pods-Radioman-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radioman-macOS.release.xcconfig"; path = "Target Support Files/Pods-Radioman-macOS/Pods-Radioman-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		514201492437B4B30078DB4F /* JukePod™ Micro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JukePod™ Micro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142014B2437B4B30078DB4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -273,6 +276,8 @@
 				17436DC32D511D13005A9D84 /* RNCWebViewImpl+SSL.m */,
 				1744DCB82D6087780049E48A /* RNSliderMacOS.h */,
 				1744DCB92D6087920049E48A /* RNSliderMacOS.m */,
+				1750635C2DA909D900C43DF6 /* JukerstoneSDK.h */,
+				1750635D2DA909D900C43DF6 /* JukerstoneSDK.m */,
 			);
 			path = "Radioman-macOS";
 			sourceTree = "<group>";
@@ -684,6 +689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1750635E2DA909D900C43DF6 /* JukerstoneSDK.m in Sources */,
 				1744DCBA2D6087920049E48A /* RNSliderMacOS.m in Sources */,
 				17436DC52D511D14005A9D84 /* RNCWebViewImpl+SSL.m in Sources */,
 				514201582437B4B40078DB4F /* main.m in Sources */,
